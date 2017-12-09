@@ -35,7 +35,7 @@ footer {
 
 input label {
   display: block;
-  clear: all;
+  clear: both;
 }
 
 .profilephoto {
@@ -87,6 +87,9 @@ margin-top: 5px;
     height: 100px;
     position: fixed;
     background: #fcfcfc;
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 5px;
     color: #4aaaa5;
     padding: 10px 10px 10px 10px;
 }
