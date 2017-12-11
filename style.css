@@ -1,0 +1,252 @@
+body {
+  background: #e8eaed;
+  background-image: url("../images/stonehaven.png");
+  background-repeat: repeat;
+}
+
+header {
+  border-bottom: solid;
+  border-color: #cccccc;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+form {
+  float: left;
+  clear: left;
+  display: block;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+}
+
+
+input label {
+  display: block;
+  clear: both;
+}
+
+.profilephoto {
+  height: 200px;
+  width: 140px;
+  float: left;
+  clear: right;
+  margin-left: 15px;
+}
+
+.p {
+  margin: 10px 20px 15px 10px;
+  display: block;
+}
+
+.nametxt .emailtxt {
+  float: left;
+  display: block;
+  clear: both;
+}
+
+
+.namebox {
+float: left;
+clear: left;
+margin-top: 5px;
+}
+
+.emailbox {
+  float: left;
+  clear: left;
+  margin-top: 8px;
+}
+
+.submitbox {
+  float: left;
+  clear: left;
+  height: 150px;
+  width: 630px;
+}
+
+.content {
+  margin: auto;
+}
+
+.topnav {
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: #fcfcfc;
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 5px;
+    color: #4aaaa5;
+    padding: 10px 10px 10px 10px;
+}
+
+.toplinks {
+    display: inline-flex;
+    float: right;
+    color: #777777;
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 150px;
+}
+
+.linkone {
+  float: left;
+  clear: left;
+  padding: 10px;
+  color: #777777;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+  border-right: solid;
+  border-color: #dddddd;
+}
+
+.linktwo {
+  float: left;
+  clear: center;
+  padding: 10px;
+  color: #777777;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+  border-right: solid;
+  border-color: #dddddd;
+}
+
+.linkthree {
+  float: left;
+  clear: left;
+  padding: 10px;
+  color: #777777;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.sidecontact {
+	  float: right;
+    width: 270px;
+    height: 150px;
+    position: fixed;
+    left: 900px;
+    background: #fcfcfc;
+    color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border: #dddddd;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    margin-top: 150px;
+}
+
+.pics {
+  white-space: nowrap;
+  float: center;
+  display: inline-block;
+  clear: left;
+}
+
+.about-txt, .whitebox {
+    float: left;
+    position: fixed;
+    height: 300px;
+    width: 650px;
+    background: #fcfcfc;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    border: #dddddd;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.portfoliopics {
+  display: inline-grid;
+
+}
+
+.cat {
+    float: left;
+    clear: right;
+    width: 50%;
+    padding: 10px;
+}
+
+.tech {
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.myname {
+  float: left;
+  width: 20%;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin: 20px 0px 0px 140px;
+  padding: 20px;
+  text-align: center;
+}
+
+.headtxt {
+  color: #4aaaa5;
+  background: transparent;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-right: 300px;
+  border-bottom: solid;
+  border-color: #dddddd;
+}
+
+.aboutpix {
+  display: block;
+  float: left;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#subject {
+  margin-top: 40px;
+  margin-left: 8px;
+  height: 140px;
+  width: 630px;
+}
+
+#submit {
+  background: #4aaaa5;
+  color: white;
+  border: none;
+  height: 30px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  width: 10%;
+  margin-right: 550px;
+}
